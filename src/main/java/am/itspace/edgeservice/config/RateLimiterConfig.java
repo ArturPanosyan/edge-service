@@ -9,6 +9,7 @@ import reactor.core.publisher.Mono;
 public class RateLimiterConfig {
     @Bean
     public KeyResolver keyResolver() {
+
         return exchange -> Mono.just("anonymous");
     }
 }
