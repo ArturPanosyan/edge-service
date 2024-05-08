@@ -3,7 +3,11 @@ on: push
 
 env:
   REGISTRY: ghcr.io
+<<<<<<< HEAD
   IMAGE_NAME: ArturPanosyan/edge-service
+=======
+  IMAGE_NAME: shantdashjianeducation/edge-service
+>>>>>>> 506cbe0e98a962fd7cfe791fb2a116cb0fb86d24
   VERSION: latest
 
 jobs:
